@@ -1,0 +1,30 @@
+{
+  "name": "merge-specs",
+  "version": "alpha-0.0.1",
+  "description": "Merge spec files together",
+  "main": "src/index.js",
+  "author": "Deshi Rahim",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "babel-eslint": "^10.1.0",
+    "escape-string-regexp": "^4.0.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-cypress": "^2.11.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-no-only-tests": "^2.4.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "jscodeshift": "^0.11.0",
+    "lodash": "^4.17.20"
+  }
+}
